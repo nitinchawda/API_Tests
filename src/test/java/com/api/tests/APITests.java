@@ -1,9 +1,11 @@
 package com.api.tests;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import com.test.helper.BaseHelper;
 
 public class APITests extends BaseHelper {
